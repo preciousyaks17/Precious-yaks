@@ -24,13 +24,13 @@ export default function Home() {
               Software <span className="text-blue-500">Engineer</span>
             </h1>
             <p className="mt-2 text-lg">
-              Hello, I'm Precious, a dedicated frontend engineer who thrives on
+              Hello, I am Precious, a dedicated frontend engineer who thrives on
               building versatile tools that enhance both developer productivity
               and customer experience across various tech stacks. In my spare
               time, I enjoy skating.
             </p>
             <p className="mt-2 text-lg font-bold">
-              I'm currently exploring fresh career prospects and open to
+              I am currently exploring fresh career prospects and open to
               opportunities. Feel free to reach out to me{" "}
               <Link
                 href="mailto:preciousyakubu307@gmail.com"
@@ -47,11 +47,7 @@ export default function Home() {
               >
                 <FaTwitter size={24} className="text-blue-500" />
               </a>
-              <a
-                href="https://github.com/preciousyaks17"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="w" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={24} className="text-blue-500" />
               </a>
               <a
@@ -67,8 +63,8 @@ export default function Home() {
         <div className="mt-12">
           <h2 className="text-3xl font-bold">Projects</h2>
           <p className="mt-2">
-            I've worked on many small projects but these are my favorites. Feel
-            free to check them out!
+            I have worked on many small projects but these are my favorites.
+            Feel free to check them out!
           </p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
