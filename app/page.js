@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "../Components/Navbar";
+import Navbar from "../components/Navbar";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
