@@ -1,12 +1,17 @@
 import Image from "next/image";
-import Navbar from "../components/Navbar";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <Navbar />
+      <nav className="flex justify-between p-5">
+        <ul className="flex flex-start primary font-extrabold text-lg">
+          <li>
+            Pre<span className="text-blue-500">Yaks.</span>
+          </li>
+        </ul>
+      </nav>
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center md:flex-row md:justify-center md:space-x-8">
           <div className="rounded-full overflow-hidden w-40 h-40">
