@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
@@ -69,33 +69,13 @@ export default function Home() {
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
               title="Tracksify"
-              description="An employee time tracking system. Built with NextJs, Typescript, and Tailwindcss."
+              description="An employee time tracking system. Built with NextJs, Typescript, and Tailwindcss and C# and .NET for the backend."
               link="https://tracksify.netlify.app"
             />
             <ProjectCard
-              title="car-rental-service"
-              description="An API service for a car rental platform. Built using python, fastapi, and Postgresql."
-              link="https://github.com/yourgithub/car-rental-service"
-            />
-            <ProjectCard
-              title="border-ng-js"
-              description="An NPM package to check if a provided coordinate falls within the borders of Nigeria."
-              link="https://github.com/yourgithub/border-ng-js"
-            />
-            <ProjectCard
-              title="Bunsoir"
-              description="Quickly setup Bun-based backend application with little development configuration."
-              link="https://github.com/yourgithub/bunsoir"
-            />
-            <ProjectCard
-              title="Cmd+B"
-              description="A beautiful and accessible bookmark manager for your chrome browser."
-              link="https://chrome.google.com/webstore/detail/cmd+b/your-id"
-            />
-            <ProjectCard
-              title="EnvBadge"
-              description="Open-source solution for identifying your current web environment at a glance."
-              link="https://envbadge.com"
+              title="HealthPadi"
+              description="A helth infomation system fro getting health update in your location. Built with NextJS, Typescript and tailwind for the frontend and C# and .NET for the backend."
+              link="https://dev--healthpadi.netlify.app/"
             />
           </div>
         </div>
@@ -113,7 +93,7 @@ function ProjectCard({ title, description, link }) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-block text-blue-500 underline"
+        className="mt-4 inline-block text-sky-700 text-lg hover:text-blue-600 "
       >
         View Project
       </a>
