@@ -90,7 +90,7 @@ export default function Home() {
             <ProjectCard
               title="Tracksify"
               description="An employee time tracking system. Built with NextJs, Typescript, and Tailwindcss and C# and .NET for the backend."
-              link="https://tracksify.netlify.app"
+              link="https://tracksify.netlify.app/"
             />
           </div>
         </div>
