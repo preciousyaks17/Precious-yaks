@@ -29,10 +29,10 @@ export default function Home() {
               Software <span className="text-blue-500">Engineer</span>
             </h1>
             <p className="mt-2 text-lg">
-              Hello, I am Precious, a dedicated frontend engineer who thrives on
-              building versatile tools that enhance both developer productivity
-              and customer experience across various tech stacks. In my spare
-              time, I enjoy skating.
+              Hello, I am Precious, a dedicated frontend engineer specializing
+              in both web and mobile development. I thrive on building versatile
+              tools that enhance developer productivity and customer experience
+              across various tech stacks. In my spare time, I enjoy skating.
             </p>
             <p className="mt-2 text-lg font-bold">
               I am currently exploring fresh career prospects and open to
@@ -73,14 +73,24 @@ export default function Home() {
           </p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
-              title="Tracksify"
-              description="An employee time tracking system. Built with NextJs, Typescript, and Tailwindcss and C# and .NET for the backend."
-              link="https://tracksify.netlify.app"
+              title="Plaventi"
+              description="Plaventi is an event management platform for planning, managing, selling, and discovering events. It includes features for organizing events, managing teams, ticket sales, and guest engagement."
+              link="https://plaventi.dev"
             />
             <ProjectCard
               title="HealthPadi"
-              description="A helth infomation system fro getting health update in your location. Built with NextJS, Typescript and tailwind for the frontend and C# and .NET for the backend."
+              description="A health information system for getting health update in your location. Built with NextJS, Typescript and tailwind for the frontend and C# and .NET for the backend."
               link="https://dev--healthpadi.netlify.app/"
+            />
+            <ProjectCard
+              title="BorrowHub"
+              description="A peer-to-peer (P2P), Microloan platform that bridges the gap between borrowers and lenders. Built with NextJs, Typescript, and Tailwindcss and C# and .NET for the backend."
+              link="https://borrowhub-v1.vercel.app/"
+            />
+            <ProjectCard
+              title="Tracksify"
+              description="An employee time tracking system. Built with NextJs, Typescript, and Tailwindcss and C# and .NET for the backend."
+              link="https://tracksify.netlify.app"
             />
           </div>
         </div>
